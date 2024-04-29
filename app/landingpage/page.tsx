@@ -164,9 +164,9 @@ const page = () => {
                                     <h2 className=' text-black text-xl font-bold leading-6'>Educational Platform</h2>
                                     <h6 className=' text-light_black font-normal text-sm leading-5'>Web Design / Usability Testing</h6>
                                 </div>
-                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
+                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-red-500 rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/images/tad.png"
+                            src="/images/send.png"
                             width={20}
                             height={20}
                             objectFit='contain'
@@ -190,9 +190,9 @@ const page = () => {
                                     <h2 className=' text-black text-xl font-bold leading-6'>Travel App Design</h2>
                                     <h6 className=' text-light_black font-normal text-sm leading-5'>UX Research / App Design </h6>
                                 </div>
-                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
+                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-red-500 rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/send.svg"
+                            src="/images/send.png"
                             width={20}
                             height={20}
                             objectFit='contain'
@@ -216,9 +216,9 @@ const page = () => {
                                     <h2 className=' text-black text-xl font-bold leading-6'>Personal Page</h2>
                                     <h6 className=' text-light_black font-normal text-sm leading-5'>Web Design</h6>
                                 </div>
-                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
+                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-red-500 rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/send.svg"
+                            src="/images/send.png"
                             width={20}
                             height={20}
                             objectFit='contain'
@@ -244,9 +244,9 @@ const page = () => {
                                     <h2 className=' text-black text-xl font-bold leading-6'>Furniture Mobile App</h2>
                                     <h6 className=' text-light_black font-normal text-sm leading-5'>App Design</h6>
                                 </div>
-                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
+                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-red-500 rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/send.svg"
+                            src="/images/send.png"
                             width={20}
                             height={20}
                             objectFit='contain'
@@ -270,9 +270,9 @@ const page = () => {
                                     <h2 className=' text-black text-xl font-bold leading-6'>Coffee House Page</h2>
                                     <h6 className=' text-light_black font-normal text-sm leading-5'>UX Research / Web Design </h6>
                                 </div>
-                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
+                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-red-500 rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/send.svg"
+                            src="/images/send.png"
                             width={20}
                             height={20}
                             objectFit='contain'
@@ -296,9 +296,9 @@ const page = () => {
                                     <h2 className=' text-black text-xl font-bold leading-6'>House Services Page</h2>
                                     <h6 className=' text-light_black font-normal text-sm leading-5'>Web Design / Marketing</h6>
                                 </div>
-                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
+                                <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-red-500 rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/send.svg"
+                            src="/images/send.png"
                             width={20}
                             height={20}
                             objectFit='contain'
