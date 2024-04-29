@@ -14,14 +14,17 @@ const page = () => {
 
         <>
             {/* Hero section */}
-            <div className=" roboto hero flex flex-col h-auto pt-10 gap-y-8 bg-light_pink overflow-hidden">
+            <div className=" roboto hero flex flex-col h-auto pt-10 gap-y-8 bg-red-200 overflow-hidden">
+          
                 <div className="nav_bar min-w-full flex-wrap  h-12 flex items-center justify-between pl-32 pr-32">
                     <div className="bg w-40 h-40 absolute ml-10 left-96  -top-16 bg-primary rounded-full"></div>
                     <div className="button flex w-32 gap-1 text-white font-semibold text-2xl uppercase leading-10 ">
-                        <p>S<span className='text-primary'>J</span></p>
-                        <span className='text-primary'>design</span>
+                        <p className='text-black'>S<span className='text-red-500'>J</span></p>
+                        <span className='text-red-500'>design</span>
                     </div>
-                    <div className="links flex gap-8 text-sm font-bold leading-6 text-black relative">
+                    
+                    <div className=" links flex gap-8 text-sm font-bold leading-6 text-black relative ">
+                   
                         <a href="#about">About</a>
                         <a href="#Services">Services</a>
                         <a href="#Portfolio">Portfolio</a>
@@ -33,7 +36,7 @@ const page = () => {
                     <div className="header_content w-[457px] h-[518px] pt-16 pb-20 flex flex-col gap-12 ">
                         <div className="section_headings  text-black flex flex-col gap-y-4 ">
                             <p className="tittle font-normal text-xl leading-7 font-mono">UX designer</p>
-                            <h1 className="tittle font-mono font-extrabold text-5xl leading-normal">Hi There, I'm <span className='text-primary'>Shakeela Naz</span></h1>
+                            <h1 className="tittle font-mono font-extrabold text-5xl leading-normal">Hi There, I'm <span className='text-red-500'>Shakeela Naz</span></h1>
                             <p className="description text-base font-normal leading-6">Welcome to my Portfolio of captivating digital experiences. Explore my work and lets create something extraordinary together.</p>
                         </div>
                         <div className="CTAs h-12 flex gap-5 uppercase font-bold text-base ">
@@ -43,7 +46,7 @@ const page = () => {
                     </div>
                     <div className="header_img mt-8 h-[30.459rem] w-[42.938rem]   pt-10  flex items-center justify-center">
                     <div className="img ">
-                    <Image src="/"  alt="Picture of the author" width="300" height="300"/> 
+                    <Image src="/images/hero.png"  alt="Picture of the author" width="2000" height="2000"/> 
                     </div>
                 </div>
 
@@ -51,7 +54,7 @@ const page = () => {
             </div>    
             
             {/* About section */}
-            <div id='about' className="roboto About h-[445px] overflow-hidden bg-light_black text-black flex flex-col gap-8 justify-center items-center text-center pl-48 pr-48 pt-16">
+                    <div id='about' className="roboto About h-[445px] overflow-hidden bg-bitter bg-gray-400 text-black flex flex-col gap-8 justify-center items-center text-center pl-48 pr-48 pt-16">
                 <div className="about_heading flex flex-col gap-6 h-[150px] w-[810px] ">
                     <h1 className=' text-4xl font-bold leading-10 '>About Me</h1>
                     <p className=' text-base font-normal leading-6'>I'm Shakeela Naz, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
@@ -59,7 +62,7 @@ const page = () => {
                  
                 <div className="about_container flex gap-16 ">
                     <div className="info01 flex flex-col gap-5 text-center w-[312px]  h-[119px]">
-                        <h2 className='text-light_pink  text-[64px] font-bold leading-10'>502</h2>
+                        <h2 className='text-black-200  text-[64px] font-bold leading-10'>502</h2>
                         <p>Projects Done</p>
                     </div>
                     <div className="info02 flex flex-col gap-5 text-center w-[312px]  h-[119px]">
@@ -85,7 +88,7 @@ const page = () => {
                         <div className="service01 flex flex-col  p-4 gap-6">
                             <div className="vector">
                             <Image 
-                            src="/starvector.svg"
+                            src="/images/vector.png"
                             width={68}
                             height={68}
                             alt="Picture of the author"
@@ -97,19 +100,19 @@ const page = () => {
                         <div className="service02 flex flex-col p-4 gap-6">
                             <div className="vector">
                             <Image 
-                            src="/circlevector.svg"
+                            src="/images/vector1.png"
                             width={120}
                             height={120}
                             alt="Picture of the author"
                             />
                         </div>
-                            <h2 className='text-[18px] font-bold leading-6'>Branding</h2>
+                            <h2 className='text-[18px] font-bold leading-6'>Branding</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                             <p className='text-light_black leading-[21px] font-normal text-[14px]'>I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
                         </div>
                         <div className="service03 flex flex-col p-4 gap-6">
                             <div className="vector">
                             <Image 
-                            src="/searchvector.svg"
+                            src="/images/vector2.png"
                             width={78}
                             height={78}
                             alt="Picture of the author"
@@ -121,13 +124,13 @@ const page = () => {
                         <div className="service04 flex flex-col p-4 gap-6">
                             <div className="vector">
                             <Image 
-                            src="/listvector.svg"
-                            width={72}
-                            height={72}
+                            src="/images/vector 03.png"
+                            width={78}
+                            height={78}
                             alt="Picture of the author"
                             />
-                        </div>
-                            <h2 className='text-[18px] font-bold leading-6'>Usability Testing</h2>
+                        </div>                                  
+                            <h2 className='text-[18px] font-bold leading-6'>Usability Testing</h2>                                                                                                                                                                                                                                                                                               
                             <p className='text-light_black leading-[21px] font-normal text-[14px]'>I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>
                         </div>
                     </div>
@@ -135,7 +138,7 @@ const page = () => {
             </div>
             {/* Portfolio section */}
             <div id='Portfolio' className="portfolio_section  roboto overflow-hidden  bg-[#F7F7F7] h-[940.67px]">
-                <div className="portfolio_heading h-[318px] flex flex-col items-center justify-center text-center gap-[10px]  pt-[50px] pb-[142px] bg-light_pink ">
+                <div className="portfolio_heading h-[318px] flex flex-col items-center justify-center text-center gap-[10px]  pt-[50px] pb-[142px]  bg-red-200 ">
                     <div className="Portfolio_sectionHeading  h-[126px] w-[1192px] flex flex-col justify-center items-center gap-6">
                     <h1 className=' text-4xl text-black font-bold leading-[54px] '>Portfolio</h1>
                         <div className="p_description h-12 w-[810px]">
@@ -149,7 +152,7 @@ const page = () => {
                         <div className="card01  w-[354.67px] h-[297.33px] flex flex-col gap-8">
                             <div className="cardImg h-[198.33px] w-[354.67px]">
                             <Image 
-                            src="/card01.jpg"
+                            src="/images/ep.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -163,7 +166,7 @@ const page = () => {
                                 </div>
                                 <div className="liner mt-6 flex justify-center items-center  h-[37.67px] w-[37.67] bg-primary rounded-full p-[7.53px] ">
                                 <Image 
-                            src="/send.svg"
+                            src="/images/tad.png"
                             width={20}
                             height={20}
                             objectFit='contain'
@@ -175,7 +178,7 @@ const page = () => {
                         <div className="card02  w-[354.67px] h-[297.33px] flex flex-col gap-8">
                             <div className="cardImg h-[198.33px] w-[354.67px]">
                             <Image 
-                            src="/card02.jpg"
+                            src="/images/tad.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -201,7 +204,7 @@ const page = () => {
                         <div className="card03  w-[354.67px] h-[297.33px] flex flex-col gap-8">
                             <div className="cardImg h-[198.33px] w-[354.67px]">
                             <Image 
-                            src="/card03.jpg"
+                            src="/images/pp.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -229,7 +232,7 @@ const page = () => {
                     <div className="card04  w-[354.67px] h-[297.33px] flex flex-col gap-8">
                             <div className="cardImg h-[198.33px] w-[354.67px]">
                             <Image 
-                            src="/card04.jpg"
+                            src="/images/card4.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -255,7 +258,7 @@ const page = () => {
                         <div className="card05  w-[354.67px] h-[297.33px] flex flex-col gap-8">
                             <div className="cardImg h-[198.33px] w-[354.67px]">
                             <Image 
-                            src="/card05.jpg"
+                            src="/images/card5.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -281,7 +284,7 @@ const page = () => {
                         <div className="card06  w-[354.67px] h-[297.33px] flex flex-col gap-8">
                             <div className="cardImg h-[198.33px] w-[354.67px]">
                             <Image 
-                            src="/card06.jpg"
+                            src="/images/card6.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -383,8 +386,8 @@ const page = () => {
                 </div>
             </div>
              {/* Testimonials section */}
-             <div className="testimonial_section  roboto pb-[5.625rem] justify-center items-center flex flex-col gap-[0.625rem] pl-[5.45rem] pr-[7.75rem]  h-[25.875rem] bg-light_pink ">
-            <div className="testimonials_bg  rotate-180  rounded-t-[100px] h-[100px] w-[110px] bg-primary">
+             <div className="testimonial_section  roboto pb-[5.625rem] justify-center items-center flex flex-col gap-[0.625rem] pl-[5.45rem] pr-[7.75rem]  h-[25.875rem] bg-red-200 ">
+            <div className="testimonials_bg  rotate-180  rounded-t-[100px] h-[100px] w-[110px] bg-red-500">
             </div>
                 <div className="testimonials_container w-[74.5rem] h-[16.25rem]  pl-[3rem] pt-[4rem] text-center  justify-center items-center flex flex-col gap-8">
                     <h2 className=' font-bold text-4xl leading-[3.375rem] text-black'>Testemonials</h2>
@@ -392,7 +395,7 @@ const page = () => {
                         <div className="arrow_right">
                         <div className="arrow_left">
                         <Image 
-                            src="/leftArrow-new.png"
+                            src="/images/left arrow.png"
                                 width={18}
                                 height={18}
                             alt="Picture of the author"
@@ -404,7 +407,7 @@ const page = () => {
                         </div>
                         <div className="arrow_left">
                         <Image 
-                            src="/rightArrow-new.png"
+                            src="/images/right arrow.png"
                                 width={18}
                                 height={18}
                             alt="Picture of the author"
@@ -414,7 +417,7 @@ const page = () => {
                     <div className="client_imgOrInfo w-[23rem] h-[4.375rem] items-center flex gap-4">
                         <div className="clientImg h-[4.375rem] w-[4.375rem] overflow-hidden justify-center flex items-center border-2 border-light_pink rounded-[50%]">
                         <Image 
-                            src="/clientPic-removebg.png"
+                            src="/images/client image.png"
                                 width={100}
                                 height={100}
                                 objectFit='contain'
@@ -422,7 +425,7 @@ const page = () => {
                         />
                         </div>
                         <div className="clientInfo text-black leading-6 text-base font-bold">
-                        Shakeela Naz <span className='text-light_black font-normal'>/ CEO of XYZ Company</span>
+                        Jhon Smith<span className='text-light_black font-normal'>/ CEO of XYZ Company</span>
                          </div>
                     </div>
                 </div>
@@ -438,7 +441,7 @@ const page = () => {
                     <div className="contentCard01 w-[21rem] h-[26.634rem] flex flex-col gap-8 bg-white text-black">
                         <div className="blogImg w-[21rem] h-[12.634rem]">
                         <Image 
-                            src="/blog01.jpg"
+                            src="/images/d1.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -457,7 +460,7 @@ const page = () => {
                                 </div>
                                 <div className="arrow w-4 mt-[0.29rem] h-4">
                                 <Image 
-                            src="/rightArrow-new.png"
+                            src="/images/right arrow.png"
                             width={6}
                             height={6}
                             objectFit='contain'
@@ -470,7 +473,7 @@ const page = () => {
                     <div className="contentCard02 w-[21rem] h-[26.634rem] flex flex-col gap-8 bg-white text-black">
                         <div className="blogImg w-[21rem] h-[12.634rem]">
                         <Image 
-                            src="/blog02.jpg"
+                            src="/images/d2.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -489,7 +492,7 @@ const page = () => {
                                 </div>
                                 <div className="arrow w-4 mt-[0.29rem] h-4">
                                 <Image 
-                            src="/rightArrow-new.png"
+                            src="/images/right arrow.png"
                             width={6}
                             height={6}
                             objectFit='contain'
@@ -502,7 +505,7 @@ const page = () => {
                     <div className="contentCard03 w-[21rem] h-[26.634rem] flex flex-col gap-8 bg-white text-black">
                         <div className="blogImg w-[21rem] h-[12.634rem]">
                         <Image 
-                            src="/blog03.jpg"
+                            src="/images/d3.png"
                             width={500}
                             height={600}
                             objectFit='contain'
@@ -521,7 +524,7 @@ const page = () => {
                                 </div>
                                 <div className="arrow w-4 mt-[0.29rem] h-4">
                                 <Image 
-                            src="/rightArrow-new.png"
+                            src="/images/right arrow.png"
                             width={6}
                             height={6}
                             objectFit='contain'
@@ -534,14 +537,16 @@ const page = () => {
                 </div>
             </div>
               {/* Contact section */}
-              <div className="contact_section  roboto h-[44.688rem] overflow-hidden bg-light_pink flex gap-[3.65rem] p-[7.75rem]">
+              <div className="contact_section  roboto h-[44.688rem] overflow-hidden bg-red-200 flex gap-[3.65rem] p-[7.75rem]">
                  
                  <div className="contactInfo w-[34.75rem] h-[29.188rem] flex flex-col justify-between">
                      <div className="contactInfoContainer w-[34.75rem] h-[19.875rem] flex flex-col gap-16 ">
+                   
                          <div className="contactHeading h-[7.375rem] w-[34.75rem] flex flex-col gap-4">
                              <h1 className=' text-black text-4xl font-bold leading-[54px]'>Get In Touch</h1>
                              <p className=' text-light_black font-normal text-base leading-6'>Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
                          </div>
+                         
                          <div className="contactInfo h-[8.5rem]  w-[34.75rem] flex flex-col gap-8">
                              <div className="frame01  h-6 flex gap-4">
                                  <div className="phone w-[50px] h-[50px] text-black  text-[25px]">
@@ -594,7 +599,7 @@ const page = () => {
                  
              </div>
              {/* Footer Section */}
-             <div className="footer_section  roboto h-[22.466rem] py-[5rem] flex justify-center items-center bg-light_black px-[18.75rem]">
+             <div className="footer_section  roboto h-[22.466rem] py-[5rem] flex justify-center items-center bg-black px-[18.75rem]">
                  <div className="footerContainer w-[47.75rem] h-[12.466rem] flex items-center flex-col gap-16">
                      <div className="footerLinksContainer h-[3.375rem] w-[47.75rem] justify-center items-center flex gap-[120px]">
                          <div className="links flex gap-8 w-[185px] h-[30px] text-white font-bold leading-6 text-xl">
@@ -602,8 +607,8 @@ const page = () => {
                              <a href="#Services">Services</a>
                          </div>
                          <div className="logo w-[162px] h-[54px] flex gap-1 font-semibold text-4xl leading-[54px] text-white">
-                             <p>S<span className='text-primary'>J</span></p>
-                             <p className='text-primary'>Design</p>
+                             <p>S<span className='text-red-600'>J</span></p>
+                             <p className='text-red-600'>Design</p>
                          </div>
                          <div className="links flex gap-8 w-[185px] h-[30px] text-white font-bold leading-6 text-xl">
                              <a href="#Portfolio">Portfolio</a>
